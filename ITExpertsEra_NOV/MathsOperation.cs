@@ -15,6 +15,8 @@ namespace ITExpertsEra_NOV
         // create new variable
         public int noofseats = 6;
 
+        public int speed = 10;
+
         // property
         public int MyProperty { get; set; }
        
