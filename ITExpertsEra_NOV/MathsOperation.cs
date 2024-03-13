@@ -17,11 +17,11 @@ namespace ITExpertsEra_NOV
 
         public int speed = 10;
         public string colour = "Red";
-        public string name="wagnor";
+        public string name = "wagnor";
 
         // property
         public int MyProperty { get; set; }
-       
+
         // methods
 
         public void sum(int num1, int num2)
@@ -35,12 +35,16 @@ namespace ITExpertsEra_NOV
             int speed = pressure * 10;
             Console.WriteLine(speed);
         }
+        public void CurrentSpeed()
+        {
+            Console.WriteLine("your current speed is 120kph");
+        }
+        public void brake(int pressure)
+        {
+
+            int speed = pressure / 10;
+            Console.WriteLine("speed of the car is " + speed);
+        }
+
     }
-
-}
-
-
-
-
-
 }
