@@ -16,6 +16,7 @@ namespace ITExpertsEra_NOV
         public int noofseats = 6;
 
         public int speed = 10;
+        public string colour = "Red";
 
         // property
         public int MyProperty { get; set; }
