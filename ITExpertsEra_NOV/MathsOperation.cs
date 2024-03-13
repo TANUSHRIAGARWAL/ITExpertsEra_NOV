@@ -17,6 +17,7 @@ namespace ITExpertsEra_NOV
 
         public int speed = 10;
         public string colour = "Red";
+        public string name="wagnor";
 
         // property
         public int MyProperty { get; set; }
