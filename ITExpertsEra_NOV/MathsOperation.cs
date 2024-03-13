@@ -39,6 +39,12 @@ namespace ITExpertsEra_NOV
         {
             Console.WriteLine("your current speed is 120kph");
         }
+        public void brake(int pressure)
+        {
+
+            int speed = pressure / 10;
+            Console.WriteLine("speed of the car is " + speed);
+        }
 
     }
 }
